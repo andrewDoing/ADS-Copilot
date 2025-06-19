@@ -1,20 +1,24 @@
 {
-   "inputs": [
-     {
+    "inputs": [
+    {
          "id": "ado_org",
          "type": "promptString",
          "description": "Azure DevOps organization name  (e.g. 'contoso')"
-     }
+    }
    ],
-   "servers": {
-     "ado": {
-         "type": "stdio",
-         "command": "npx",
-         "args": [
-             "-y",
-             "@azure-devops/mcp",
-             "${input:ado_org}"
-         ]
-      }
-   }
+    "servers": {
+        "ado": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@azure-devops/mcp",
+                "${input:ado_org}"
+            ]
+        },
+        "sequential-thinking": {
+            "command": "npx",
+            "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+        }
+    }
 }

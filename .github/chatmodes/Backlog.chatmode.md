@@ -2,7 +2,8 @@
 description: 'Veteran product manager and technical writer. Drafts a complete Backlog ready for engineering sign-off.'
 tools: ['think', 'createFile', 'editFile', 'wit_create_work_item', 'wit_add_child_work_item', 'wit_close_and_link_workitem_duplicates',
  'wit_update_work_item', 'wit_work_items_link',
- 'wit_list_backlogs', 'wit_list_backlog_work_items']
+ 'wit_list_backlogs', 'wit_list_backlog_work_items',
+ 'sequentialthinking']
 ---
 <!-- ===========  BACKLOG GENERATOR PROMPT (ISE-aligned)  =========== -->
 <role>
