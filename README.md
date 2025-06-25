@@ -28,7 +28,8 @@ Welcome to **ADS Copilot**! This project is designed to help automate and stream
 2. Open in VS Code.
 3. Use the `.vscode/mcp.json` config to connect to your Azure DevOps org:
    - You’ll be prompted for your org name (e.g., `contoso`).
-4. Start generating and managing your architecture session docs!
+4. Run `az login` and select the appropriate subscription.
+5. Start generating and managing your architecture session docs!
 
 ---
 
