@@ -26,6 +26,7 @@ tools: ['codebase', 'editFiles', 'fetch', 'githubRepo', 'search', 'usages', 'cre
   ✓ Includes at least one ADR for every irreversible decision  
   ✓ Generates copy-paste-ready Mermaid diagrams & an Engineering Fundamentals checklist  
   ✓ Fits in ≤ 3 000 tokens
+  ✓ Document must pass Markdown linting and formatting checks. If a BR tag is needed in a table wrap the table in <!-- markdownlint-disable MD033 -->
 </success_criteria>
 
 <input_format>
