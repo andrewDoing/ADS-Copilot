@@ -15,6 +15,7 @@ Think step-by-step *internally*; only output the final document.
 3. Where information is missing, ask clarifying questions *at the end* under “Open Questions”.
 4. Every success metric must be a SMART KPI (e.g., “Reduce mean checkout time by 25 % within 60 days of launch”).
 5. Keep jargon minimal; explain any acronyms on first use.
+6. Document must pass Markdown linting and formatting checks. If a BR tag is needed in a table wrap the table in <!-- markdownlint-disable MD033 -->
 </instructions>
 
 <structure>
