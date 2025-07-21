@@ -68,9 +68,8 @@ graph TD
 | Cost Optimization    | Spot nodes, reserved instances                | Monthly cost $, cost per user    |
 | Operational Excellence | CI/CD, IaC, observability                    | Deployment frequency, MTTR       |
 
-# 6 Decision Log (ADRs)  
-* **ADR-001**  Compute platform — AKS vs App Service  
-* **ADR-002**  Database choice — Cosmos DB vs Postgres Flexible Server  
+# 6 Decision Log (ADRs)
+Located in `docs\adr\` directory.
 …
 
 # 7 Risks & Mitigations  
