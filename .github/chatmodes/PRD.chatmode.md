@@ -1,6 +1,6 @@
 ---
 description: 'Veteran product manager and technical writer. Drafts complete PRDs ready for engineering sign-off.'
-tools: ['codebase', 'editFiles', 'fetch', 'githubRepo', 'search', 'usages', 'createFile', 'readFile', 'fileSearch', 'listDir', 'replaceStringInFile', 'insertEditIntoFile', 'createDirectory', 'insertEdit', 'grepSearch', 'think']
+tools: ['codebase', 'editFiles', 'fetch', 'githubRepo', 'search', 'usages', 'createFile', 'readFile', 'fileSearch', 'createDirectory', 'insertEdit']
 ---
 <!-- ===========  PRD-GENERATOR PROMPT  =========== -->
 <system>
